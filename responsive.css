@@ -53,7 +53,7 @@ screen and (min-width: 426px) and (max-width: 600px) {
 
 @media
 screen and (max-width: 768px) {
-    .front-info h2 {
+    .front-info p {
         font-size: 2.9em;
         margin-left: 3em;
         margin-right: 2em;
@@ -62,52 +62,56 @@ screen and (max-width: 768px) {
 
 @media 
 screen and (min-width: 640px) and (max-width: 705px) {
-    .front-info h2 {
+    .front-info p {
         font-size: 2.5em;
     }
 }
 
 @media
 screen and (min-width: 565px) and (max-width: 639px) {
-    .front-info h2 {
+    .front-info p {
         font-size: 2.2em;
     }
 }
 
 @media
-screen and (min-width: 516px) and (max-width: 564px) {
-    .front-info h2 {
+screen and /*(min-width: 516px) and*/ (max-width: 564px) {
+    .front-info p {
         font-size: 2em;
+        margin-left: 1em;
+        margin-right: 1em;
     }
 }
-
+/* 
 @media
 screen and (min-width: 440px) and (max-width: 515px) {
-    .front-info h2 {
+    .front-info p {
         font-size: 1.7em;
     }
 }
 
 @media
 screen and (min-width: 387px) and (max-width: 439px) {
-    .front-info h2 {
+    .front-info p {
         font-size: 1.5em;
     }
 }
 
 @media
-screen and (min-width: 360px) and (max-width: 386px) {
-    .front-info h2 {
-        font-size: 1.4em;
+screen and /*(min-width: 360px) and (max-width: 386px) {
+    .front-info p {
+        font-size: 2em;
+        margin-left: 1em;
+        margin-right: 1em;
     }
 }
 
-@media
+ @media
 screen and (max-width: 360px) {
-    .front-info h2 {
-        font-size: 1.2em;
+    .front-info p {
+        font-size: 16px;
     }
-}
+} */
 
 
 
