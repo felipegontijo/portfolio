@@ -135,6 +135,7 @@ screen and (max-width: 564px) {
 
 .job__item a:hover {
     cursor: pointer;
+    text-transform: none;
 }
 
 /* 
