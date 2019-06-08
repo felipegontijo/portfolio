@@ -18,28 +18,49 @@ ul {
 .job__list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 1em;
 }
 
 .job__item {
-    width: 50%;
-    padding: 1em 1em 1em 1em;
+    max-width: 50%;
+    margin-left: 2em;
+    margin-bottom: 2em;
 }
 
-#job__first {
-    order: 1;
+.job__item__thumbnail {
+    vertical-align: middle;
+    width: 100%;
 }
 
-#job__second {
-    order: 2;
+.job__item__title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 200;
 }
 
-#job__third {
-    order: 3;
+/* 
+*   Media Queries
+*
+*   Recent Jobs
+*/
+
+@media
+screen and (max-width: 855px) {
+    .job__list {
+        padding-left: 0;
+    }
 }
 
-#job__fourth {
-    order: 4;
+@media
+screen and (max-width: 600px) {
+    .job__item {
+        max-width: 100%;
+        margin-left: 1em;
+    }
 }
+
 
 /* 
 *   Media Queries
