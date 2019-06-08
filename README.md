@@ -10,6 +10,6 @@ The project had responsiveness as its main focus. The website was designed and d
 
 To make sure the project would be responsive, I made use of **Flexbox**, **Media Queries**, **Breakpoints**, and **Minor Breakpoints**.
 
-## Note
+### Note
 
-This is my very **first** website :)
+This was the very **first** website I built :)
