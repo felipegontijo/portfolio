@@ -1,7 +1,7 @@
 # Project
 
 This is my Portfolio Website, the first website I built, to showcase my recent projects for easy access and reference.
-Checkout the website here: [Felipe's Porfolio](https://felipegontijo.github.io/portfolio/)
+Check it out here: [Felipe's Porfolio](https://felipegontijo.github.io/portfolio/)
 
 ## About
 
